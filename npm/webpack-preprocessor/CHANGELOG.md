@@ -1,3 +1,10 @@
+# [@cypress/webpack-preprocessor-v6.0.4](https://github.com/cypress-io/cypress/compare/@cypress/webpack-preprocessor-v6.0.3...@cypress/webpack-preprocessor-v6.0.4) (2025-03-26)
+
+
+### Bug Fixes
+
+* allow version 10 of the babel-loader peer dependency ([#31218](https://github.com/cypress-io/cypress/issues/31218)) ([33cf18e](https://github.com/cypress-io/cypress/commit/33cf18e409a25573566b033f50b03d824e32cef1))
+
 # [@cypress/webpack-preprocessor-v6.0.3](https://github.com/cypress-io/cypress/compare/@cypress/webpack-preprocessor-v6.0.2...@cypress/webpack-preprocessor-v6.0.3) (2025-03-25)
 
 
