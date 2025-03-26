@@ -5,6 +5,7 @@ _Released 4/8/2025 (PENDING)_
 
 **Bugfixes:**
 
+- Allows for `babel-loader` version 10 to be a peer dependency of `@cypress/webpack-preprocessor`. Fixed in [#31218](https://github.com/cypress-io/cypress/pull/31218).
 - Fixed an issue where Firefox BiDi was prematurely removing prerequests on pending requests. Fixes [#31376](https://github.com/cypress-io/cypress/issues/31376).
 
 **Misc:**
