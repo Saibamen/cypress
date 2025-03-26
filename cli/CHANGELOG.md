@@ -3,6 +3,10 @@
 
 _Released 4/8/2025 (PENDING)_
 
+**Bugfixes:**
+
+- Fixed an issue where Firefox BiDi was prematurely removing prerequests on pending requests. Fixes [#31376](https://github.com/cypress-io/cypress/issues/31376).
+
 **Misc:**
 
 - Added an automation command for dispatching key press events to CDP and BiDi automated browsers. Addressed in [#31366](https://github.com/cypress-io/cypress/pull/31366).
