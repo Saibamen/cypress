@@ -5,6 +5,7 @@ _Released 4/8/2025 (PENDING)_
 
 **Misc:**
 
+- Added an automation command for dispatching key press events to CDP and BiDi automated browsers. Addressed in [#31366](https://github.com/cypress-io/cypress/pull/31366).
 - Updated error message around `injectDocumentDomain` removal to mention a future version of Cypress instead of Cypress 15. Addresses [#31373](https://github.com/cypress-io/cypress/issues/31373). Addressed in [#31375](https://github.com/cypress-io/cypress/pull/31375).
 
 **Dependency Updates:**
