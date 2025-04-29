@@ -3,6 +3,10 @@
 
 _Released 5/6/2025 (PENDING)_
 
+**Bugfixes:**
+
+- Fixed an issue where the configuration setting `trashAssetsBeforeRuns=false` was ignored for assets in the `videosFolder`. These assets were incorrectly deleted before running tests with `cypress run`. Addresses [#8280](https://github.com/cypress-io/cypress/issues/8280).
+
 **Misc:**
 
 - The URL in the Cypress App no longer displays a white background when the URL is loading. Fixes [#31556](https://github.com/cypress-io/cypress/issues/31556).
