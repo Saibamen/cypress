@@ -493,11 +493,12 @@ export class ProjectBase extends EE {
 
         const studio = await this.ctx.coreData.studioLifecycleManager?.getStudio()
 
-        if (studio?.protocolManager) {
+        await studio?.destroy()
+
+        if (this.protocolManager) {
           await browsers.closeProtocolConnection({ browser: this.browser, foundBrowsers: this.options.browsers })
           this.protocolManager?.close()
           this.protocolManager = undefined
-          await studio.destroy()
         }
       },
 
